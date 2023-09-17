@@ -53,7 +53,7 @@ const clickHandler = (image) => {
 
 <style scoped>
 .wrapper {
-  width: 75vw;
+  width: 80vw;
   margin: 0 auto;
 }
 
