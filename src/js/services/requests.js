@@ -14,12 +14,9 @@ export default function getPhotos() {
     isLoading.value = true;
     await axios
       .get("/photos/random", {
-        // headers: {
-        //   Authorization: `Bearer ${token}`,
-        // },
         params: {
           client_id: ApiKey,
-          count: 8,
+          count: 15,
         },
       })
       .then((res) => {
